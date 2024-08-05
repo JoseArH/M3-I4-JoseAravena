@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Funciones en JavaScript</h1>
+    
+    <section id="power">
+        <h2>Potencia</h2>
+        <label for="base">Base:</label>
+        <input type="number" id="base" placeholder="Introduce la base">
+        <label for="exponent">Exponente:</label>
+        <input type="number" id="exponent" placeholder="Introduce el exponente">
+        <button onclick="calculatePower()">Calcular Potencia</button>
+        <p>Resultado: <span id="powerResult"></span></p>
+    </section>
+
+    <section id="factorial">
+        <h2>Factorial</h2>
+        <label for="factorialInput">Número para factorial (menor que 20):</label>
+        <input type="number" id="factorialInput" placeholder="Introduce un número" max="19">
+        <button onclick="calculateFactorial()">Calcular Factorial</button>
+        <p>Resultado: <span id="factorialResult"></span></p>
+    </section>
+
+    <section id="user">
+        <h2>Objeto Usuario</h2>
+        <label for="userNameInput">Nombre:</label>
+        <input type="text" id="userNameInput" placeholder="Introduce el nombre">
+        <label for="userAgeInput">Edad:</label>
+        <input type="number" id="userAgeInput" placeholder="Introduce la edad">
+        <button onclick="updateUser()">Actualizar Usuario</button>
+        <p>Nombre: <span id="userName"></span></p>
+        <p>Edad: <span id="userAge"></span></p>
+    </section>
+
+    <section id="factorialArrow">
+        <h2>Factorial (Función de Flecha)</h2>
+        <label for="factorialArrowInput">Número para factorial (menor que 20):</label>
+        <input type="number" id="factorialArrowInput" placeholder="Introduce un número" max="19">
+        <button onclick="calculateFactorialArrow()">Calcular Factorial (Flecha)</button>
+        <p>Resultado: <span id="factorialArrowResult"></span></p>
+    </section>
+
+    <section id="fibonacci">
+        <h2>Serie de Fibonacci</h2>
+        <label for="fibonacciInput">Número para Fibonacci (menor que 20):</label>
+        <input type="number" id="fibonacciInput" placeholder="Introduce un número" max="19">
+        <button onclick="calculateFibonacci()">Calcular Fibonacci</button>
+        <p>Resultado: <span id="fibonacciResult"></span></p>
+    </section>
+
+    <section id="palindrome">
+        <h2>Palíndromo</h2>
+        <label for="wordInput">Palabra:</label>
+        <input type="text" id="wordInput" placeholder="Introduce una palabra">
+        <button onclick="checkPalindrome()">Verificar Palíndromo</button>
+        <p>Resultado: <span id="palindromeResult"></span></p>
+    </section>
+    <script src="js/script.js"></script>
+    <!--José Aravena-->
+</body>
+</html>

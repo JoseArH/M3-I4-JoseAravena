@@ -1,0 +1,38 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;    
+    margin: 20px;
+background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+label, input {
+    display: block;
+    margin: 5px 0;
+    
+}
+
+input[type="number"], input[type="text"] {
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+}
